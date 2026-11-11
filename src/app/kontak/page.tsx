@@ -75,9 +75,9 @@ export default function KontakPage() {
                 <div className="flex gap-4 items-start">
                   <span className="text-xl text-emas mt-0.5">📞</span>
                   <div>
-                    <h3 className="font-bold text-teks uppercase text-[10px] tracking-widest mb-1">Telepon Kantor</h3>
-                    <a href="tel:0217201234" className="hover:text-[var(--color-hijau-tua)] transition-colors font-medium">
-                      (021) 720-1234
+                    <h3 className="font-bold text-teks uppercase text-[10px] tracking-widest mb-1">Telepon & WhatsApp</h3>
+                    <a href="tel:+6288902047766" className="hover:text-[var(--color-hijau-tua)] transition-colors font-medium">
+                      +62 889-0204-7766
                     </a>
                   </div>
                 </div>
