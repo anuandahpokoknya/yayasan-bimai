@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
   verification: {
     other: {
-      "facebook-domain-verification": ["a6lqDw0ssk019kyB53tjaqt11evhh7"],
+      "facebook-domain-verification": ["a6lq0w0ssk019ky853tjaqt11evhh7"],
     },
   },
 };
@@ -108,7 +108,7 @@ export default function RootLayout({
         {/* Meta Facebook Domain Verification */}
         <meta
           name="facebook-domain-verification"
-          content="a6lqDw0ssk019kyB53tjaqt11evhh7"
+          content="a6lq0w0ssk019ky853tjaqt11evhh7"
         />
 
         {/* TikTok Pixel (Hanya aktif jika NEXT_PUBLIC_TIKTOK_PIXEL_ID dikonfigurasi) */}
