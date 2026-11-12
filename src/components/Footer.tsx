@@ -62,7 +62,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 pt-2">
               <span className="text-xs text-white/60 font-semibold mr-1">Ikuti Kami:</span>
               <a
-                href="https://facebook.com/bimaipeduli"
+                href="https://www.facebook.com/share/1FUBWNKso6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white/80 hover:bg-[var(--color-emas)] hover:text-[var(--color-teks)] transition-all"
