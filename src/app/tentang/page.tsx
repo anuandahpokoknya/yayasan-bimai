@@ -56,9 +56,9 @@ export default function TentangPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-24">
             <div className="flex flex-col gap-4">
-               <p className="font-serif text-6xl text-emas font-bold">12+</p>
+               <p className="font-serif text-6xl text-emas font-bold">2017</p>
                <div className="h-px w-full bg-gray-100" />
-               <p className="text-[10px] font-bold tracking-widest text-teks uppercase">Tahun Dedikasi Tanpa Henti</p>
+               <p className="text-[10px] font-bold tracking-widest text-teks uppercase">Tahun Berdiri & Berkhidmat</p>
             </div>
             <div className="flex flex-col gap-4 md:translate-y-12">
                <p className="font-serif text-6xl text-hijau-tua font-bold">5Rb+</p>
@@ -114,7 +114,7 @@ export default function TentangPage() {
             <span className="h-px w-12 bg-emas" />
           </div>
           <p className="text-center text-teks-sekunder max-w-xl mx-auto mb-16 leading-relaxed">
-            Sebagai wujud kepatuhan terhadap regulasi pemerintah Indonesia dan menjaga kepercayaan publik, berikut adalah nomor legalitas resmi Yayasan Bina Masyarakat Indonesia.
+            Didirikan resmi sejak tahun 2017 di bawah pengesahan Kemenkumham RI, Yayasan Bina Masyarakat Indonesia berkomitmen menjaga kepatuhan regulasi pemerintah dan keterbukaan kepada publik.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <div className="bg-[#fdfaf5] p-8 border border-emas/10 text-center rounded-xl shadow-sm">

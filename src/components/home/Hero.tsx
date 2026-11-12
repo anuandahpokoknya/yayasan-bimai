@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="md:w-3/5 z-10 text-left mb-16 md:mb-0">
           <div className="inline-block px-3 py-1 bg-emas/10 border border-emas/20 mb-8">
             <span className="text-emas font-bold text-[10px] tracking-[0.3em] uppercase">
-              Sejak 2012 • Yayasan Bina Masyarakat Indonesia
+              Sejak 2017 • Yayasan Bina Masyarakat Indonesia
             </span>
           </div>
 

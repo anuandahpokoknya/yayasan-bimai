@@ -211,10 +211,12 @@ export default function TransparansiPage() {
                 <p className="text-sm text-teks-sekunder leading-relaxed mb-8">{report.deskripsi}</p>
               </div>
               <a 
-                href="#"
+                href={`https://wa.me/6288902047766?text=${encodeURIComponent(`Assalamu'alaikum Admin BIMAI, saya ingin mengajukan permohonan salinan dokumen resmi ${report.tahun}. Terima kasih.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full py-3.5 bg-[#fdfaf5] hover:bg-teks hover:text-white border border-teks text-xs font-bold tracking-widest uppercase transition-colors text-center block"
               >
-                Unduh Laporan
+                Permohonan Salinan (PDF) &rarr;
               </a>
             </div>
           ))}
