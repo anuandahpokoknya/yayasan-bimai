@@ -1,7 +1,7 @@
 import crypto from "crypto";
 
-const TIKTOK_PIXEL_ID = process.env.TIKTOK_PIXEL_ID || "D9ECINRC77UBS5FSH6M0";
-const TIKTOK_ACCESS_TOKEN = process.env.TIKTOK_ACCESS_TOKEN || "8cc00296129f119d3f38c5f91bf2cfee526c98ff";
+const TIKTOK_PIXEL_ID = process.env.TIKTOK_PIXEL_ID || "";
+const TIKTOK_ACCESS_TOKEN = process.env.TIKTOK_ACCESS_TOKEN || "";
 
 export interface TikTokServerEventParams {
   eventName: "PageView" | "ViewContent" | "InitiateCheckout" | "CompletePayment" | "Purchase";
@@ -25,6 +25,11 @@ export async function sendTikTokServerEvent({
   pageUrl = "https://bimaipeduli.id/donasi",
   programName = "Wakaf Al-Qur'an Braille",
 }: TikTokServerEventParams) {
+  // Jika token atau pixel tidak dikonfigurasi di environment, abaikan
+  if (!TIKTOK_PIXEL_ID || !TIKTOK_ACCESS_TOKEN) {
+    return null;
+  }
+
   try {
     const cleanPhone = phone ? phone.replace(/[^0-9]/g, "") : "";
     const cleanEmail = email && email.includes("@") ? email.trim().toLowerCase() : (cleanPhone ? `${cleanPhone}@bimaipeduli.id` : "");

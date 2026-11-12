@@ -15,10 +15,10 @@ export async function POST(req: Request) {
       );
     }
 
-    const merchantCode = process.env.DUITKU_MERCHANT_CODE || "DS33105";
-    const merchantKey = process.env.DUITKU_MERCHANT_KEY || "c07b660a92027e1f448c47ff17091219";
+    const merchantCode = process.env.DUITKU_MERCHANT_CODE || "";
+    const merchantKey = process.env.DUITKU_MERCHANT_KEY || "";
     const environment = process.env.DUITKU_ENVIRONMENT || "sandbox";
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3001";
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://bimaipeduli.id";
 
     const timestamp = Date.now();
     const orderId = `BIMAI-${timestamp}-${Math.floor(1000 + Math.random() * 9000)}`;

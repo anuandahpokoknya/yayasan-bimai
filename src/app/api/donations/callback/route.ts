@@ -11,7 +11,12 @@ export async function POST(req: Request) {
     const signature = formData.get("signature")?.toString() || "";
     const resultCode = formData.get("resultCode")?.toString() || "";
 
-    const merchantKey = process.env.DUITKU_MERCHANT_KEY || "c07b660a92027e1f448c47ff17091219";
+    const merchantKey = process.env.DUITKU_MERCHANT_KEY || "";
+
+    if (!merchantKey) {
+      console.warn("Callback Duitku: DUITKU_MERCHANT_KEY belum dikonfigurasi di environment!");
+      return NextResponse.json({ status: "error", message: "Server misconfiguration" }, { status: 500 });
+    }
 
     // Verifikasi Signature Duitku MD5(merchantCode + amount + merchantOrderId + merchantKey)
     const calcSignatureRaw = `${merchantCode}${amount}${merchantOrderId}${merchantKey}`;
