@@ -65,9 +65,16 @@ export default function KontakPage() {
                 {/* Alamat */}
                 <div className="flex gap-4 items-start">
                   <span className="text-xl text-emas mt-0.5">📍</span>
-                  <div>
-                    <h3 className="font-bold text-teks uppercase text-[10px] tracking-widest mb-1">Alamat Kantor</h3>
-                    <p>Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pondok Benda, Pamulang, Tangerang Selatan, 15416</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h3 className="font-bold text-teks uppercase text-[10px] tracking-widest mb-0.5">Kantor Sekretariat (Legalitas)</h3>
+                      <p>Jl. Sukamulya Raya No. 18, RT 001/RW 007, Kel. Serua Indah, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414</p>
+                      <p className="text-[11px] text-gray-400 font-mono mt-0.5">Sesuai SK Kemenkumham & NIB: 2911220041043</p>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-teks uppercase text-[10px] tracking-widest mb-0.5">Kantor Layanan & Operasional</h3>
+                      <p>Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Kel. Pondok Benda, Kec. Pamulang, Kota Tangerang Selatan 15416</p>
+                    </div>
                   </div>
                 </div>
 

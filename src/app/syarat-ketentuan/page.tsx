@@ -161,7 +161,8 @@ export default function SyaratKetentuanPage() {
           </p>
           <div className="bg-white p-6 rounded-xl border border-black/5 text-sm space-y-2">
             <p className="font-bold text-teks">Yayasan Bina Masyarakat Indonesia (BIMAI Peduli)</p>
-            <p>Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pondok Benda, Pamulang, Tangerang Selatan, Banten 15416</p>
+            <p>Alamat Legalitas (Sekretariat): Jl. Sukamulya Raya No. 18, RT 001/RW 007, Kel. Serua Indah, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414</p>
+            <p>Alamat Layanan & Operasional: Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pondok Benda, Pamulang, Tangerang Selatan, Banten 15416</p>
             <p>WhatsApp Layanan: +62 889-0204-7766</p>
             <p>Email: info@bimaipeduli.id</p>
           </div>

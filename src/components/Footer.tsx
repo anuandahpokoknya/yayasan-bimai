@@ -54,7 +54,8 @@ export default function Footer() {
             </p>
 
             <div className="flex flex-col gap-1 text-[11px] text-white/50 font-mono">
-              <p>SK MENKUMHAM: AHU-0010921.AH.01.04.Tahun 2017</p>
+              <p>SK KEMENKUMHAM: AHU-0010921.AH.01.04.Tahun 2017</p>
+              <p>NIB: 2911220041043 | DINSOS: 460/4170-27/Bid.Dayasos/2022</p>
               <p>SK KESBANGPOL: 220/845 - Kesbangpol / 2019</p>
             </div>
 
@@ -129,10 +130,19 @@ export default function Footer() {
               Kontak & Lokasi
             </p>
             <div className="flex flex-col gap-3 text-sm text-white/80 leading-relaxed">
-              <p>
-                Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pondok Benda, Pamulang, Tangerang Selatan, 15416
-              </p>
-              <p>Senin - Jumat, 08.00 - 17.00 WIB</p>
+              <div>
+                <p className="font-semibold text-xs text-[var(--color-emas)] mb-0.5">Kantor Sekretariat (Legalitas):</p>
+                <p className="text-xs text-white/70">
+                  Jl. Sukamulya Raya No. 18, RT 001/RW 007, Serua Indah, Ciputat, Tangerang Selatan 15414
+                </p>
+              </div>
+              <div>
+                <p className="font-semibold text-xs text-[var(--color-emas)] mb-0.5">Kantor Layanan & Operasional:</p>
+                <p className="text-xs text-white/70">
+                  Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pondok Benda, Pamulang, Tangerang Selatan 15416
+                </p>
+              </div>
+              <p className="text-[11px] text-white/50 pt-1">Senin - Jumat, 08.00 - 17.00 WIB</p>
               <div className="flex flex-col gap-1 mt-1">
                 <a
                   href="tel:+6288902047766"

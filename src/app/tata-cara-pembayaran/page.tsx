@@ -54,7 +54,7 @@ export default function TataCaraPembayaranPage() {
                 Penyelenggara Program Sosial, Pendidikan, & Wakaf Al-Qur&apos;an Braille
               </p>
               <p className="text-xs text-gray-500">
-                Alamat: Jalan Villa Pamulang Blok CF 1 No. 5, RT 011/RW 017, Pamulang, Tangerang Selatan | Hotline: +62 889-0204-7766
+                Sekretariat: Jl. Sukamulya Raya No. 18, Serua Indah, Ciputat | Layanan: Jl. Villa Pamulang Blok CF 1 No. 5, Pamulang | Hotline: +62 889-0204-7766
               </p>
             </div>
             <div className="text-right">

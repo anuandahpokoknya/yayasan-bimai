@@ -116,21 +116,37 @@ export default function TentangPage() {
           <p className="text-center text-teks-sekunder max-w-xl mx-auto mb-16 leading-relaxed">
             Didirikan resmi sejak tahun 2017 di bawah pengesahan Kemenkumham RI, Yayasan Bina Masyarakat Indonesia berkomitmen menjaga kepatuhan regulasi pemerintah dan keterbukaan kepada publik.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <div className="bg-[#fdfaf5] p-8 border border-emas/10 text-center rounded-xl shadow-sm">
-              <div className="text-emas text-4xl mb-4">⚖️</div>
-              <h3 className="font-bold text-lg text-teks mb-2">SK Menkumham</h3>
-              <p className="text-sm text-teks-sekunder mb-6 leading-relaxed">Terdaftar resmi di Kementerian Hukum dan Hak Asasi Manusia Republik Indonesia</p>
-              <div className="inline-block font-mono text-xs bg-emas/10 text-emas px-4 py-2 rounded-full font-bold">
-                AHU-0010921.AH.01.04.Tahun 2017
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="bg-[#fdfaf5] p-6 border border-emas/10 text-center rounded-xl shadow-sm">
+              <div className="text-emas text-3xl mb-3">⚖️</div>
+              <h3 className="font-bold text-base text-teks mb-1">SK Kemenkumham</h3>
+              <p className="text-xs text-teks-sekunder mb-4 leading-relaxed">Pengesahan Pendirian Badan Hukum RI</p>
+              <div className="inline-block font-mono text-[11px] bg-emas/10 text-emas px-3 py-1.5 rounded-full font-bold">
+                AHU-0010921.AH.01.04.2017
               </div>
             </div>
-            <div className="bg-[#fdfaf5] p-8 border border-emas/10 text-center rounded-xl shadow-sm">
-              <div className="text-emas text-4xl mb-4">📋</div>
-              <h3 className="font-bold text-lg text-teks mb-2">SK Kesbangpol</h3>
-              <p className="text-sm text-teks-sekunder mb-6 leading-relaxed">Terdaftar resmi di Badan Kesatuan Bangsa dan Politik (Kesbangpol)</p>
-              <div className="inline-block font-mono text-xs bg-emas/10 text-emas px-4 py-2 rounded-full font-bold">
-                220/845 - Kesbangpol / 2019
+            <div className="bg-[#fdfaf5] p-6 border border-emas/10 text-center rounded-xl shadow-sm">
+              <div className="text-emas text-3xl mb-3">🏢</div>
+              <h3 className="font-bold text-base text-teks mb-1">NIB Berbasis Risiko</h3>
+              <p className="text-xs text-teks-sekunder mb-4 leading-relaxed">Nomor Induk Berusaha BKPM / OSS</p>
+              <div className="inline-block font-mono text-[11px] bg-emas/10 text-emas px-3 py-1.5 rounded-full font-bold">
+                2911220041043
+              </div>
+            </div>
+            <div className="bg-[#fdfaf5] p-6 border border-emas/10 text-center rounded-xl shadow-sm">
+              <div className="text-emas text-3xl mb-3">🤝</div>
+              <h3 className="font-bold text-base text-teks mb-1">Tanda Daftar Dinsos</h3>
+              <p className="text-xs text-teks-sekunder mb-4 leading-relaxed">Lembaga Kesejahteraan Sosial (LKS)</p>
+              <div className="inline-block font-mono text-[11px] bg-emas/10 text-emas px-3 py-1.5 rounded-full font-bold">
+                460/4170-27/Bid.Dayasos/2022
+              </div>
+            </div>
+            <div className="bg-[#fdfaf5] p-6 border border-emas/10 text-center rounded-xl shadow-sm">
+              <div className="text-emas text-3xl mb-3">📋</div>
+              <h3 className="font-bold text-base text-teks mb-1">SK Kesbangpol</h3>
+              <p className="text-xs text-teks-sekunder mb-4 leading-relaxed">Badan Kesatuan Bangsa dan Politik</p>
+              <div className="inline-block font-mono text-[11px] bg-emas/10 text-emas px-3 py-1.5 rounded-full font-bold">
+                220/845/Kesbangpol/2019
               </div>
             </div>
           </div>
