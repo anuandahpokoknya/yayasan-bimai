@@ -69,6 +69,11 @@ export const metadata: Metadata = {
       "Bersama memberdayakan masyarakat melalui program sosial, pendidikan, wakaf Al-Qur'an Braille, dan kemanusiaan.",
     images: ["/logo.webp"],
   },
+  verification: {
+    other: {
+      "facebook-domain-verification": ["a6lqDw0ssk019kyB53tjaqt11evhh7"],
+    },
+  },
 };
 
 const jakarta = Plus_Jakarta_Sans({
@@ -100,6 +105,12 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth" suppressHydrationWarning>
       <head>
+        {/* Meta Facebook Domain Verification */}
+        <meta
+          name="facebook-domain-verification"
+          content="a6lqDw0ssk019kyB53tjaqt11evhh7"
+        />
+
         {/* TikTok Pixel (Hanya aktif jika NEXT_PUBLIC_TIKTOK_PIXEL_ID dikonfigurasi) */}
         {tiktokPixelId && (
           <Script id="tiktok-pixel" strategy="afterInteractive">
