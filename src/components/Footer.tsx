@@ -74,7 +74,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com/bimaipeduli"
+                href="https://instagram.com/binayatimmulia_almuqit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white/80 hover:bg-[var(--color-emas)] hover:text-[var(--color-teks)] transition-all"
