@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Formulir Donasi & Wakaf Online Resmi | BIMAI Peduli",
   description:
-    "Salurkan infak, sedekah subuh, dan wakaf Al-Qur'an Braille secara aman dan otomatis melalui portal resmi Yayasan Bina Masyarakat Indonesia.",
+    "Salurkan infak, sedekah subuh, dan wakaf Al-Qur'an Braille secara aman dan langsung melalui portal resmi Yayasan Bina Masyarakat Indonesia.",
   openGraph: {
     title: "Formulir Donasi & Wakaf Online Resmi | BIMAI Peduli",
     description:
